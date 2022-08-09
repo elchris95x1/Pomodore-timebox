@@ -36,3 +36,29 @@
     transform: rotate(360deg);
   }
 }
+
+a {
+  color: #0366d6;
+}
+
+code {
+  color: #E01A76;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+
+.pomodoro-mode{
+  background-color: #D95550;
+}
+
+.short-break-mode{
+  background-color: #4C9195;
+}
+
+.long-break-mode{
+  background-color: #457CA3;
+}
