@@ -11,9 +11,10 @@ export default function Pomodoro() {
     const [pomodoroCounter, setPomodoroCounter] = useState(1)
     const [buttonText, setButtonText] = useState('Start')
     // const [mode, setmode] = useState()
-
-    let interval;
+    // const interval = useRef(null);
+    
     useEffect(() => {
+        let interval;
         interval = setInterval(() => {
             clearInterval(interval)
             if (startTimer) {
